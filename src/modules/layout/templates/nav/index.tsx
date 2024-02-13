@@ -1,4 +1,3 @@
-import { headers } from "next/headers"
 import { Suspense } from "react"
 
 import { listRegions } from "@lib/data"
@@ -24,7 +23,7 @@ export default async function Nav() {
               href="/"
               className="txt-compact-xlarge-plus hover:text-ui-fg-base uppercase"
             >
-              Medusa Store
+              Vision Studios
             </LocalizedClientLink>
           </div>
 
