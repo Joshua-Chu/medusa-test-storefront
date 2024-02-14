@@ -31,7 +31,7 @@ export default async function Footer() {
               href="/"
               className="txt-compact-xlarge-plus text-ui-fg-subtle hover:text-ui-fg-base uppercase"
             >
-              Vision Studios
+              Odyssey Supply Co.
             </LocalizedClientLink>
           </div>
           <div className="text-small-regular gap-10 md:gap-x-16 grid grid-cols-2 sm:grid-cols-3">
@@ -153,7 +153,8 @@ export default async function Footer() {
         </div>
         <div className="flex w-full mb-16 justify-between text-ui-fg-muted">
           <Text className="txt-compact-small">
-            © {new Date().getFullYear()} Vision Studios. All rights reserved.
+            © {new Date().getFullYear()} Odyssey Supply Co.. All rights
+            reserved.
           </Text>
           <MedusaCTA />
         </div>

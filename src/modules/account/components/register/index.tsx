@@ -19,11 +19,11 @@ const Register = ({ setCurrentView }: Props) => {
   return (
     <div className="max-w-sm flex flex-col items-center">
       <h1 className="text-large-semi uppercase mb-6">
-        Become a Vision Studios Member
+        Become a Odyssey Supply Co. Member
       </h1>
       <p className="text-center text-base-regular text-ui-fg-base mb-4">
-        Create your Vision Studios Member profile, and get access to an enhanced
-        shopping experience.
+        Create your Odyssey Supply Co. Member profile, and get access to an
+        enhanced shopping experience.
       </p>
       <form className="w-full flex flex-col" action={formAction}>
         <div className="flex flex-col w-full gap-y-2">
@@ -57,7 +57,7 @@ const Register = ({ setCurrentView }: Props) => {
         </div>
         <ErrorMessage error={message} />
         <span className="text-center text-ui-fg-base text-small-regular mt-6">
-          By creating an account, you agree to Vision Studios&apos;s{" "}
+          By creating an account, you agree to Odyssey Supply Co.&apos;s{" "}
           <LocalizedClientLink
             href="/content/privacy-policy"
             className="underline"

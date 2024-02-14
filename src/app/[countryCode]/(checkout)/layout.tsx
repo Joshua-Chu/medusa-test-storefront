@@ -27,7 +27,7 @@ export default function CheckoutLayout({
             href="/"
             className="txt-compact-xlarge-plus text-ui-fg-subtle hover:text-ui-fg-base uppercase"
           >
-            Vision Studios
+            Odyssey Supply Co.
           </LocalizedClientLink>
           <div className="flex-1 basis-0" />
         </nav>
