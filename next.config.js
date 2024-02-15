@@ -29,6 +29,10 @@ const nextConfig = withStoreConfig({
         protocol: "http",
         hostname: "console-production-d4da.up.railway.app",
       },
+      {
+        protocol: "https",
+        hostname: "medusa-test-production-98df.up.railway.app",
+      },
     ],
   },
 })
